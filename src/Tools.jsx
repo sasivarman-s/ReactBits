@@ -58,34 +58,34 @@ function Tools() {
              md:gap-0 md:p-2 md:text-base"
                         >
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="../index.html">
+                                <Link className="block rounded-full px-1 py-2" to="/">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="about.html">
+                                <Link className="block rounded-full px-1 py-2" to="/about">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="projects.html">
+                                <Link className="block rounded-full px-1 py-2" to="/projects">
                                     project
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="resume.html">
+                                <Link className="block rounded-full px-1 py-2" to="/resume">
                                     Resume
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="tools.html">
+                                <Link className="block rounded-full px-1 py-2" to="/tools">
                                     Tools
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="block rounded-full px-1 py-2" href="ama.html">
+                                <Link className="block rounded-full px-1 py-2" to="/ama">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>

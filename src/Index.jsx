@@ -50,8 +50,8 @@ function Index() {
                     <div className="max-w-[100%]">
                         <div className="w-[80%] md:w-[60%] mx-auto grid grid-cols-1 gap-5 bounce-bottom">
                             <div className="group">
-                                <a
-                                    href="pages/about.html"
+                                <Link
+                                    to="/about"
                                     className="flex flex-row justify-between items-center text-2xl group-hover:translate-y-2"
                                 >
                                     About
@@ -72,11 +72,11 @@ function Index() {
                                             <path d="M2 12H22" />
                                         </svg>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="group">
-                                <a
-                                    href="pages/projects.html"
+                                <Link
+                                    to="/projects"
                                     className="flex flex-row justify-between items-center text-2xl group-hover:translate-y-2"
                                 >
                                     {" "}
@@ -98,11 +98,11 @@ function Index() {
                                             <path d="M2 12H22" />
                                         </svg>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="group">
-                                <a
-                                    href="pages/resume.html"
+                                <Link
+                                    to="/resume"
                                     className="flex flex-row justify-between items-center text-2xl group-hover:translate-y-2"
                                 >
                                     Resume
@@ -123,11 +123,11 @@ function Index() {
                                             <path d="M2 12H22" />
                                         </svg>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="group">
-                                <a
-                                    href="pages/tools.html"
+                                <Link
+                                    to="/tools"
                                     className="flex flex-row justify-between items-center text-2xl group-hover:translate-y-2"
                                 >
                                     Tools
@@ -148,11 +148,11 @@ function Index() {
                                             <path d="M2 12H22" />
                                         </svg>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="group">
-                                <a
-                                    href="pages/ama.html"
+                                <Link
+                                    to="/ama"
                                     className="flex flex-row justify-between items-center text-2xl group-hover:translate-y-2"
                                 >
                                     Contact
@@ -173,7 +173,7 @@ function Index() {
                                             <path d="M2 12H22" />
                                         </svg>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
