@@ -40,4 +40,3 @@ function savedata(name, phnumber, mail, msg) {
         msg: msg,
     });
 }
-
