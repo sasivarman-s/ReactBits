@@ -2,6 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.css';
 import '../assets/WEB/css/satoshi.css'
+import Index from './Index';
+import About from './About';
+import Projects from './Projects';
+import Tools from './Tools';
+import Resume from './Resume';
+import { Link } from "react-router-dom";
 
 function Ama() {
     return (
